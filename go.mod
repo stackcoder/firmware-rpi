@@ -1,4 +1,4 @@
-module github.com/gokrazy-community/firmware-rpi
+module github.com/stackcoder/firmware-rpi
 
 go 1.20
 

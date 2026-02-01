@@ -41,6 +41,6 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: firmware ${{steps.download.outputs.version}}
-          tagging_message: v1.0.0-${{steps.download.outputs.version}}
+          tagging_message: v1.0.1-${{steps.download.outputs.version}}
           skip_dirty_check: ${{ contains(steps.date_check.outputs.flag, '--') }} # only when --allow-empty is added below
           commit_options: ${{steps.date_check.outputs.flag}}
